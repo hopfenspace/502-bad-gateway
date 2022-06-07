@@ -54,7 +54,7 @@ server {
         proxy_pass http://10.0.0.107;
 
         # NEW
-        error_page 502 =202 @badgw;
+        error_page 502 =200 @badgw;
     }
 }
 
