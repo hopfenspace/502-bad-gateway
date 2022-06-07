@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2rem 2rem 0 2rem;
 }
 
 /*
@@ -145,4 +146,10 @@ Animation
 
 .cube__face--bottom {
     transform: rotateX(-90deg) translateZ(100px);
+}
+
+@media screen and (max-width: 500px) {
+    .big {
+        font-size: 1.5rem;
+    }
 }
